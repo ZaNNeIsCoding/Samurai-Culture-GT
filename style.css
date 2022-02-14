@@ -1,0 +1,279 @@
+/*
+    Theme Name: Wp Bootstrap Starter Child
+    Template: wp-bootstrap-starter
+*/
+
+body.page-template-template-home #content.site-content,
+body.page-id-5 #content.site-content {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.header-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header-navbar ul li a {
+  padding: 0.6rem 0.8rem;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-navbar ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header-phone {
+  text-decoration: none;
+  padding: 0.5rem 0.8rem;
+  text-shadow: black 2px;
+  font-size: 1.2rem;
+}
+
+.carousel-item::after {
+  content: "";
+  padding-top: 40%;
+  display: block;
+}
+
+.carousel-item {
+  background-size: cover;
+  background-position: center;
+}
+
+button {
+  border-radius: 4px;
+}
+
+/* Despre noi */
+
+.team-img {
+  background-size: cover;
+}
+
+.secondary-member {
+  background-position: center;
+}
+
+.team-img:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+/* Despre noi page END */
+
+/* Contact */
+
+.numar-de-telefon {
+  text-decoration: underline;
+  text-decoration-color: #3c85f3;
+}
+
+.nume-email {
+  text-decoration: underline;
+  text-decoration-color: #3c85f3;
+}
+
+.container p {
+  margin-bottom: auto;
+}
+
+.poz-harta {
+  padding-top: 4rem;
+  padding-right: 4rem;
+  width: fit-content;
+  block-size: fit-content;
+}
+
+.harta {
+  width: 650px;
+  height: 450px;
+  border: 0;
+}
+
+/* Contact page END */
+
+.imagine {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border: 5px solid gray;
+  object-fit: cover;
+}
+
+/* php start */
+
+.sectiune-php {
+  margin-right: 15px;
+}
+
+.rand-participanti {
+  border: 1px solid lightgray;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: normal;
+}
+
+/* php end */
+
+footer {
+  background: cadetblue;
+  margin-top: auto;
+}
+footer .footer-logo {
+  max-width: 85px;
+}
+
+.email-input {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.submit-button {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-left: -15px;
+}
+
+.cere-detalii:hover {
+  text-decoration: none;
+}
+
+footer {
+  background: none;
+}
+
+.entry-title {
+  padding-top: 30px;
+}
+
+button > a {
+  color: #fff;
+}
+
+button > a:hover {
+  color: #fff;
+}
+
+.site-info {
+  color: white;
+}
+
+body .site-content {
+  min-height: 100vh;
+}
+
+footer.site-footer {
+  top: 100;
+  bottom: 0;
+}
+
+body:not(.theme-preset-active) footer#colophon {
+  background: #563d7c;
+}
+
+.navbar-brand > a > img {
+  width: 160px;
+  height: 100px;
+}
+
+figure > img {
+  max-height: 400px;
+}
+
+figure {
+  align-self: center;
+}
+
+figure img {
+  height: 350px;
+  width: 185px;
+  object-fit:cover;
+}
+
+section#widget[block-21] {
+  margin-bottom: 20px;
+}
+
+.container .row {
+  align-items: center;
+}
+
+button a:hover {
+  text-decoration: none;
+}
+
+ul#menu-specialised-menu {
+  padding-top: 25px;
+  padding-right: 50px;
+}
+
+h3.widget-title {
+  color: blue;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+p.about-us {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding-right: 35px;
+}
+
+section#block-7 {
+  font-size: 20px;
+  color: blue;
+}
+
+section#block-14 {
+  font-size: 14px;
+}
+
+section#block-13 {
+  font-size: 14px;
+}
+
+section#block-12 {
+  font-size: 14.5px;
+}
+
+p.check-fields {
+  padding-bottom: 8px;
+}
+
+body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
+	font-size: 15px;
+}
